@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrnsysModel>
+  <Model>
+    <Object>
+      <Type>999</Type>
+      <Author>Your Name</Author>
+      <Description>Nanofluid Spectral Splitting Greenhouse</Description>
+      <Inputs>
+        <Input><Name>T_out</Name><Unit>C</Unit></Input>
+        <Input><Name>I_solar</Name><Unit>kJ/hr-m2</Unit></Input>
+        <Input><Name>Wind</Name><Unit>m/s</Unit></Input>
+        <Input><Name>T_fluid_inlet</Name><Unit>C</Unit></Input>
+      </Inputs>
+      <Parameters>
+        <Param><Name>h_out_base</Name><Unit>kJ/hr-m2-K</Unit></Param>
+        <Param><Name>A_roof</Name><Unit>m2</Unit></Param>
+        <Param><Name>C_air</Name><Unit>kJ/K</Unit></Param>
+        <Param><Name>C_roof</Name><Unit>kJ/K</Unit></Param>
+        <Param><Name>fraction_trans</Name><Unit>-</Unit></Param>
+        <Param><Name>fraction_abs</Name><Unit>-</Unit></Param>
+        <Param><Name>m_dot</Name><Unit>kg/hr</Unit></Param>
+        <Param><Name>cp_fluid</Name><Unit>kJ/kg-K</Unit></Param>
+        <Param><Name>A_wall</Name><Unit>m2</Unit></Param>
+        <Param><Name>V_dot</Name><Unit>m3/hr</Unit></Param>
+        <Param><Name>U_wall</Name><Unit>kJ/hr-m2-K</Unit></Param>
+        <Param><Name>U_soil</Name><Unit>kJ/hr-m2-K</Unit></Param>
+        <Param><Name>h_in</Name><Unit>kJ/hr-m2-K</Unit></Param>
+        <Param><Name>Unused</Name><Unit>-</Unit></Param>
+      </Parameters>
+      <Outputs>
+        <Output><Name>T_in</Name><Unit>C</Unit></Output>
+        <Output><Name>T_roof</Name><Unit>C</Unit></Output>
+        <Output><Name>Q_harvested</Name><Unit>kJ/hr</Unit></Output>
+        <Output><Name>Q_transmitted</Name><Unit>kJ/hr</Unit></Output>
+      </Outputs>
+    </Object>
+  </Model>
+</TrnsysModel>
