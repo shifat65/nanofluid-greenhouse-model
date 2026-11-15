@@ -3,7 +3,7 @@
   <Model>
     <Object>
       <Type>999</Type>
-      <Author>Your Name</Author>
+      <Author>Syed Shifat E Rahman</Author>
       <Description>Nanofluid Spectral Splitting Greenhouse</Description>
       <Inputs>
         <Input><Name>T_out</Name><Unit>C</Unit></Input>
